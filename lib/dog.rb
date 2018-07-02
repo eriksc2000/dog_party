@@ -8,4 +8,8 @@ class Dog
     @age   = age
     @breed = breed
   end
+  
+  def bark 
+    "Woof"
+  end 
 end
