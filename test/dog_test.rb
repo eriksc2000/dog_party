@@ -44,4 +44,10 @@ class DogTest < Minitest::Test
     
     assert_equal "Woof", dog.bark 
   end 
+  
+  def test_summary
+    dog = Dog.new("Fido", 2, "Dalmation")
+    
+    assert_equal "Name: Fido Age: 2 Breed: Dalmation", dog.summary
+  end 
 end

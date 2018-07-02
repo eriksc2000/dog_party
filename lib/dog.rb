@@ -12,4 +12,8 @@ class Dog
   def bark 
     "Woof"
   end 
+  
+  def summary 
+    "Name: #{@name} Age: #{@age} Breed: #{@breed}"
+  end 
 end
